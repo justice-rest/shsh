@@ -1,0 +1,25 @@
+{
+    "name": "Webpack",
+    "description": "Webpack is a JavaScript module bundler. It is used to bundle JavaScript files, CSS files, and other assets into a single file that can be loaded by a web browser.",
+    "icon": "/icon/webpack.png",
+    "checks": {
+        "tags": [
+            {
+                "tag": "script",
+                "attribute": "src",
+                "value": "bundle.js"
+            },
+            {
+                "tag": "script",
+                "attribute": "src",
+                "value": "chunks*.js"
+            },
+            {
+                "tag": "script",
+                "attribute": "src",
+                "value": "webpack*.js"
+            }
+        ],
+        "headers": []
+    }
+}

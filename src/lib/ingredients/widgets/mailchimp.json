@@ -1,0 +1,25 @@
+{
+    "name": "Mailchimp",
+    "description": "Mailchimp is an email marketing platform that helps businesses collect email addresses, send email newsletters, promotional emails, and other types of email communications to their customers.",
+    "icon": "/icon/mailchimp.png",
+    "checks": {
+        "tags": [
+            {
+                "tag": "script",
+                "attribute": "src",
+                "value": "chimpstatic.com"
+            },
+            {
+                "tag": "script",
+                "attribute": null,
+                "value": "chimpstatic.com"
+            },
+            {
+                "tag": "script",
+                "attribute": "id",
+                "value": "mcjs"
+            }
+        ],
+        "headers": []
+    }
+}

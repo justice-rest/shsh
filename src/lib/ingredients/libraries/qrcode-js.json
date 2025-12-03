@@ -1,0 +1,15 @@
+{
+    "name": "QRCode.js",
+    "description": "QRCode.js is a JavaScript library that allows you to generate QR codes on the web.",
+    "icon": "/icon/qrcode-js.png",
+    "checks": {
+        "tags": [
+            {
+                "tag": "script",
+                "attribute": "src",
+                "value": "/qrcode.*js"
+            }
+        ],
+        "headers": []
+    }
+}

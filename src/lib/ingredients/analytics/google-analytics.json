@@ -1,0 +1,40 @@
+{
+    "name": "Google Analytics",
+    "description": "Google Analytics is a comprehensive web analytics service offered by Google.",
+    "icon": "/icon/google-analytics.png",
+    "checks": {
+        "tags": [
+            {
+                "tag": "link",
+                "attribute": "href",
+                "value": "google-analytics.com"
+            },
+            {
+                "tag": "script",
+                "attribute": "src",
+                "value": "googletagmanager.com/gtag/js"
+            },
+            {
+                "tag": "script",
+                "attribute": "id",
+                "value": "google-analytics"
+            },
+            {
+                "tag": "script",
+                "attribute": null,
+                "value": "function gtag(){dataLayer.push(arguments);}"
+            },
+            {
+                "tag": "script",
+                "attribute": null,
+                "value": "gtag('js', new Date());"
+            },
+            {
+                "tag": "script",
+                "attribute": null,
+                "value": "merchantGoogleAnalytics"
+            }
+        ],
+        "headers": []
+    }
+}

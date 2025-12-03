@@ -1,0 +1,20 @@
+{
+    "name": "Facebook Pixel",
+    "description": "Facebook Pixel is a tracking tool offered by Facebook (Meta) for advertisers.",
+    "icon": "/icon/facebook.png",
+    "checks": {
+        "tags": [
+            {
+                "tag": "script",
+                "attribute": "src",
+                "value": "connect.facebook.net/*.js"
+            },
+            {
+                "tag": "script",
+                "attribute": null,
+                "value": "window.fbAsyncInit"
+            }
+        ],
+        "headers": []
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "name": "Stripe",
+    "description": "Stripe is a payment processing platform that allows businesses to accept payments online and in-app.",
+    "icon": "/icon/stripe.png",
+    "checks": {
+        "tags": [
+            {
+                "tag": "script",
+                "attribute": "src",
+                "value": "js.stripe.com"
+            },
+            {
+                "tag": "script",
+                "attribute": null,
+                "value": "js.stripe.com"
+            },
+            {
+                "tag": "iframe",
+                "attribute": "src",
+                "value": "js.stripe.com"
+            },
+            {
+                "tag": "iframe",
+                "attribute": "name",
+                "value": "__privateStripeMetricsController"
+            }
+        ],
+        "headers": []
+    }
+}

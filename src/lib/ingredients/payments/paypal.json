@@ -1,0 +1,30 @@
+{
+    "name": "PayPal",
+    "description": "PayPal is a payment processing service that allows businesses to accept payments from customers online.",
+    "icon": "/icon/paypal.png",
+    "checks": {
+        "tags": [
+            {
+                "tag": "script",
+                "attribute": "src",
+                "value": "paypal.com/sdk/js"
+            },
+            {
+                "tag": "script",
+                "attribute": "src",
+                "value": "paypalobjects.com/api/checkout*.js"
+            },
+            {
+                "tag": "script",
+                "attribute": "src",
+                "value": "paypal.com/tagmanager/pptm*.js"
+            },
+            {
+                "tag": "form",
+                "attribute": "action",
+                "value": "paypal.com/cgi-bin/webscr"
+            }
+        ],
+        "headers": []
+    }
+}

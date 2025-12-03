@@ -1,0 +1,25 @@
+{
+    "name": "Sentry",
+    "description": "Sentry is an open-source error tracking and vulnerability detection platform that helps developers find and fix bugs in their code.",
+    "icon": "/icon/sentry.png",
+    "checks": {
+        "tags": [
+            {
+                "tag": "script",
+                "attribute": null,
+                "value": "Sentry.init"
+            },
+            {
+                "tag": "script",
+                "attribute": "src",
+                "value": "sentry/bundle*.js"
+            },
+            {
+                "tag": "script",
+                "attribute": "src",
+                "value": "js.sentry-cdn.com/*.js"
+            }
+        ],
+        "headers": []
+    }
+}

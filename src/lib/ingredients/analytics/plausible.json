@@ -1,0 +1,20 @@
+{
+    "name": "Plausible Analytics",
+    "description": "Plausible Analytics is a privacy-focused web analytics tool designed to help website owners track visitor activity without collecting personal data.",
+    "icon": "/icon/plausible.png",
+    "checks": {
+        "tags": [
+            {
+                "tag": "script",
+                "attribute": "src",
+                "value": "plausible.io/js/*.js"
+            },
+            {
+                "tag": "script",
+                "attribute": null,
+                "value": "window.plausible.q"
+            }
+        ],
+        "headers": []
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "name": "jQuery UI",
+    "description": "jQuery UI is a popular JavaScript library that provides a library of user interface widgets, such as buttons, dialogs, and tabs.",
+    "icon": "/icon/jquery-ui.png",
+    "checks": {
+        "tags": [
+            {
+                "tag": "script",
+                "attribute": "src",
+                "value": "/jquery-ui*.js"
+            },
+            {
+                "tag": "link",
+                "attribute": "href",
+                "value": "/jquery-ui*.css"
+            }
+        ],
+        "headers": []
+    }
+}

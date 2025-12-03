@@ -1,0 +1,25 @@
+{
+    "name": "OneSignal",
+    "description": "OneSignal is a push notification service that helps website owners engage with their users.",
+    "icon": "/icon/onesignal.png",
+    "checks": {
+        "tags": [
+            {
+                "tag": "script",
+                "attribute": "src",
+                "value": "cdn.onesignal.com/sdks/OneSignalSDK.js"
+            },
+            {
+                "tag": "script",
+                "attribute": null,
+                "value": "ONESIGNAL_VENDOR_APP_KEY"
+            },
+            {
+                "tag": "script",
+                "attribute": null,
+                "value": "ONESIGNAL_WEBHOOK_URL"
+            }
+        ],
+        "headers": []
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "name": "hCaptcha",
+    "description": "hCaptcha is a free, privacy-preserving CAPTCHA solution that can detect bots. It helps protect websites from spam and abuse.",
+    "icon": "/icon/hcaptcha.png",
+    "checks": {
+        "tags": [
+            {
+                "tag": "script",
+                "attribute": "src",
+                "value": "js.hcaptcha.com"
+            },
+            {
+                "tag": "script",
+                "attribute": "src",
+                "value": "hcaptcha.com/*.js"
+            }
+        ],
+        "headers": []
+    }
+}

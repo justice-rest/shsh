@@ -1,0 +1,25 @@
+{
+    "name": "Trustpilot",
+    "description": "Trustpilot provides online reviews and ratings of businesses by customers. Their widget makes it easy to display reviews a website.",
+    "icon": "/icon/trustpilot.png",
+    "checks": {
+        "tags": [
+            {
+                "tag": "div",
+                "attribute": "class",
+                "value": "trustpilot-widget"
+            },
+            {
+                "tag": "div",
+                "attribute": "class",
+                "value": "tp-widget-loader"
+            },
+            {
+                "tag": "iframe",
+                "attribute": "src",
+                "value": "widget.trustpilot.com"
+            }
+        ],
+        "headers": []
+    }
+}

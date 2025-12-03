@@ -1,0 +1,20 @@
+{
+    "name": "Reddit Pixel",
+    "description": "Reddit Pixel is a tracking tool offered by Reddit for advertisers.",
+    "icon": "/icon/reddit.png",
+    "checks": {
+        "tags": [
+            {
+                "tag": "script",
+                "attribute": "src",
+                "value": "redditstatic.com/ads/pixel.js"
+            },
+            {
+                "tag": "script",
+                "attribute": null,
+                "value": "redditstatic.com/ads/pixel.js"
+            }
+        ],
+        "headers": []
+    }
+}

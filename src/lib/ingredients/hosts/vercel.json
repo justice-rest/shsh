@@ -1,0 +1,22 @@
+{
+    "name": "Vercel",
+    "description": "Vercel is a cloud platform that helps you build, deploy, and scale your web applications and static websites.",
+    "icon": "/icon/vercel.png",
+    "checks": {
+        "tags": [],
+        "headers": [
+            {
+                "header": "Server",
+                "value": "Vercel"
+            },
+            {
+                "header": "x-vercel-cache",
+                "value": null
+            },
+            {
+                "header": "x-vercel-id",
+                "value": null
+            }
+        ]
+    }
+}

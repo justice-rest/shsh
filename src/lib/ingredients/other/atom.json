@@ -1,0 +1,15 @@
+{
+    "name": "Atom",
+    "description": "Atom is a type of web feed format that is used to distribute content such as blog posts, news articles, and podcasts.",
+    "icon": "/icon/atom.png",
+    "checks": {
+        "tags": [
+            {
+                "tag": "link",
+                "attribute": "type",
+                "value": "application/atom+xml"
+            }
+        ],
+        "headers": []
+    }
+}

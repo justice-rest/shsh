@@ -1,0 +1,20 @@
+{
+    "name": "YouTube",
+    "description": "YouTube is a free service that allows you to host videos and embed them on your website.",
+    "icon": "/icon/youtube.png",
+    "checks": {
+        "tags": [
+            {
+                "tag": "iframe",
+                "attribute": "src",
+                "value": "youtube.com/embed"
+            },
+            {
+                "tag": "iframe",
+                "attribute": "data-src",
+                "value": "youtube.com/embed"
+            }
+        ],
+        "headers": []
+    }
+}

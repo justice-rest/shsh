@@ -1,0 +1,25 @@
+{
+    "name": "Prismic",
+    "description": "Prismic is a headless content management system (CMS) that allows developers and content creators to manage and deliver content for websites and applications.",
+    "icon": "/icon/prismic.png",
+    "checks": {
+        "tags": [
+            {
+                "tag": "meta",
+                "attribute": "content",
+                "value": "images.prismic.io"
+            },
+            {
+                "tag": "img",
+                "attribute": "src",
+                "value": "cdn.prismic.io"
+            },
+            {
+                "tag": "img",
+                "attribute": "srcset",
+                "value": "cdn.prismic.io"
+            }
+        ],
+        "headers": []
+    }
+}

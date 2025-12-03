@@ -1,0 +1,20 @@
+{
+    "name": "Fingerprint.js",
+    "description": "Fingerprint.js is a JavaScript library that generates a unique identifier for each visitor to your website. This identifier can be used to track users across multiple sessions and devices, and to identify bots and other malicious actors.",
+    "icon": "/icon/fingerprint-js.png",
+    "checks": {
+        "tags": [
+            {
+                "tag": "script",
+                "attribute": "id",
+                "value": "FingerprintJS"
+            },
+            {
+                "tag": "script",
+                "attribute": "src",
+                "value": "fingerprint.*js"
+            }
+        ],
+        "headers": []
+    }
+}

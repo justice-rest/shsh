@@ -1,0 +1,25 @@
+{
+    "name": "Highlight.js",
+    "description": "Highlight.js is a JavaScript library that allows you to highlight syntax in code snippets in your website or web application.",
+    "icon": "/icon/highlight-js.png",
+    "checks": {
+        "tags": [
+            {
+                "tag": "link",
+                "attribute": "rel",
+                "value": "/highlight.*js"
+            },
+            {
+                "tag": "script",
+                "attribute": "src",
+                "value": "/highlight.*js"
+            },
+            {
+                "tag": "script",
+                "attribute": null,
+                "value": "highlight.js/lib/core"
+            }
+        ],
+        "headers": []
+    }
+}

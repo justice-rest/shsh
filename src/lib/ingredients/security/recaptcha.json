@@ -1,0 +1,55 @@
+{
+    "name": "reCaptcha",
+    "description": "Google reCAPTCHA is a free CAPTCHA service that helps protect websites from spam and abuse.",
+    "icon": "/icon/recaptcha.png",
+    "checks": {
+        "tags": [
+            {
+                "tag": "script",
+                "attribute": "src",
+                "value": "recaptcha.net/recaptcha/*.js"
+            },
+            {
+                "tag": "script",
+                "attribute": "data-src",
+                "value": "google.com/recaptcha/*.js"
+            },
+            {
+                "tag": "script",
+                "attribute": "data-src",
+                "value": "gstatic.com/recaptcha/*.js"
+            },
+            {
+                "tag": "link",
+                "attribute": "href",
+                "value": "gstatic.com/recaptcha/*.css"
+            },
+            {
+                "tag": "script",
+                "attribute": "recaptcha-v3-script",
+                "value": null
+            },
+            {
+                "tag": "script",
+                "attribute": "id",
+                "value": "grecaptchaLibrary"
+            },
+            {
+                "tag": "style",
+                "attribute": null,
+                "value": ".grecaptcha-badge"
+            },
+            {
+                "tag": "iframe",
+                "attribute": "src",
+                "value": "google.com/recaptcha"
+            },
+            {
+                "tag": "iframe",
+                "attribute": "title",
+                "value": "reCAPTCHA"
+            }
+        ],
+        "headers": []
+    }
+}

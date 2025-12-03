@@ -1,0 +1,20 @@
+{
+    "name": "Amazon Pay",
+    "description": "Amazon Pay is a payment service offered by Amazon. It allows customers to make payments on websites and in apps using their Amazon account.",
+    "icon": "/icon/amazon.png",
+    "checks": {
+        "tags": [
+            {
+                "tag": "script",
+                "attribute": "src",
+                "value": "amazon-pay.*js"
+            },
+            {
+                "tag": "script",
+                "attribute": "src",
+                "value": "payments-amazon.com/checkout.*js"
+            }
+        ],
+        "headers": []
+    }
+}

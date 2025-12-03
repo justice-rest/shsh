@@ -1,0 +1,20 @@
+{
+    "name": "Gravatar",
+    "description": "Gravatar is a service that uses an email address to identify a user and display their avatar on a website.",
+    "icon": "/icon/gravatar.png",
+    "checks": {
+        "tags": [
+            {
+                "tag": "img",
+                "attribute": "src",
+                "value": "gravatar.com"
+            },
+            {
+                "tag": "link",
+                "attribute": "href",
+                "value": "s.gravatar.com"
+            }
+        ],
+        "headers": []
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "name": "Wix",
+    "description": "Wix is a popular website builder that provides a user-friendly platform for creating and hosting websites.",
+    "icon": "/icon/wix.png",
+    "checks": {
+        "tags": [
+            {
+                "tag": "link",
+                "attribute": "href",
+                "value": "/@wix*.css"
+            },
+            {
+                "tag": "meta",
+                "attribute": "generator",
+                "value": "Wix"
+            }
+        ],
+        "headers": [
+            {
+                "header": "x-wix-request-id",
+                "value": null
+            }
+        ]
+    }
+}

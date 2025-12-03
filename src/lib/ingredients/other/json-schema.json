@@ -1,0 +1,20 @@
+{
+    "name": "JSON Schema",
+    "description": "JSON Schema is used to create structured data on the Internet, on web pages, in email messages, and beyond.",
+    "icon": "/icon/json-schema.png",
+    "checks": {
+        "tags": [
+            {
+                "tag": "script",
+                "attribute": "type",
+                "value": "application/ld+json"
+            },
+            {
+                "tag": "head",
+                "attribute": "itemtype",
+                "value": "schema.org"
+            }
+        ],
+        "headers": []
+    }
+}

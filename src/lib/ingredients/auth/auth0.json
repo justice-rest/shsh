@@ -1,0 +1,20 @@
+{
+    "name": "Auth0",
+    "description": "Auth0 is an identity and access management (IAM) platform that provides authentication and authorization services for applications and websites.",
+    "icon": "/icon/auth0.png",
+    "checks": {
+        "tags": [
+            {
+                "tag": "script",
+                "attribute": "src",
+                "value": "cdn.auth0.com/*.js"
+            }
+        ],
+        "headers": [
+            {
+                "header": "X-Auth0-Requestid",
+                "value": null
+            }
+        ]
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "name": "Klarna",
+    "description": "Klarna is a secure payment solution that makes it easy for e-commerce merchants to integrate buy now, pay later or SOFORT payments into their checkout.",
+    "icon": "/icon/klarna.png",
+    "checks": {
+        "tags": [
+            {
+                "tag": "script",
+                "attribute": "src",
+                "value": "klarnaservices.com/*.js"
+            },
+            {
+                "tag": "script",
+                "attribute": null,
+                "value": "Klarna.Payments.init"
+            },
+            {
+                "tag": "script",
+                "attribute": null,
+                "value": "api*.klarna.com"
+            }
+        ],
+        "headers": []
+    }
+}

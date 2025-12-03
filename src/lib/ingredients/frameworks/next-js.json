@@ -1,0 +1,25 @@
+{
+    "name": "Next.js",
+    "description": "Next.js is a React framework that gives you building blocks to create web applications.",
+    "icon": "/icon/next-js.png",
+    "checks": {
+        "tags": [
+            {
+                "tag": "script",
+                "attribute": "src",
+                "value": "_next/static"
+            },
+            {
+                "tag": "script",
+                "attribute": "id",
+                "value": "__NEXT_DATA__"
+            }
+        ],
+        "headers": [
+            {
+                "header": "X-Powered-By",
+                "value": "Next.js"
+            }
+        ]
+    }
+}

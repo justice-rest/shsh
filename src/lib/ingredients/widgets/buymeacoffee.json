@@ -1,0 +1,20 @@
+{
+    "name": "Buy Me a Coffee",
+    "description": "Buy Me a Coffee is a platform that allows users to support their favorite creators with small, regular donations.",
+    "icon": "/icon/buymeacoffee.png",
+    "checks": {
+        "tags": [
+            {
+                "tag": "script",
+                "attribute": "src",
+                "value": "cdnjs.buymeacoffee.com/*.js"
+            },
+            {
+                "tag": "img",
+                "attribute": "src",
+                "value": "img.buymeacoffee.com"
+            }
+        ],
+        "headers": []
+    }
+}

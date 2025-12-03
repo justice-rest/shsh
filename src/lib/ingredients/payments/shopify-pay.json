@@ -1,0 +1,15 @@
+{
+    "name": "Shopify Pay",
+    "description": "Shopify Pay is a payment solution offered by Shopify that allows businesses to accept payments online.",
+    "icon": "/icon/shopify-pay.png",
+    "checks": {
+        "tags": [
+            {
+                "tag": "script",
+                "attribute": null,
+                "value": "window.ShopifyPay"
+            }
+        ],
+        "headers": []
+    }
+}

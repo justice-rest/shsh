@@ -1,0 +1,25 @@
+{
+    "name": "HubSpot Analytics",
+    "description": "HubSpot Analytics is a web analytics component of the HubSpot inbound marketing and customer relationship management (CRM) platform.",
+    "icon": "/icon/hubspot.png",
+    "checks": {
+        "tags": [
+            {
+                "tag": "script",
+                "attribute": "src",
+                "value": "js.hs-analytics.net/*.js"
+            },
+            {
+                "tag": "script",
+                "attribute": "src",
+                "value": "js.hs-scripts.com/*.js"
+            },
+            {
+                "tag": "link",
+                "attribute": "href",
+                "value": "js.hs-analytics.net"
+            }
+        ],
+        "headers": []
+    }
+}

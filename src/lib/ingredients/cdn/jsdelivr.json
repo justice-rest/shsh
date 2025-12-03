@@ -1,0 +1,20 @@
+{
+    "name": "JSDelivr",
+    "description": "JSDelivr is a free, open-source content delivery network (CDN) that specializes in hosting and delivering JavaScript libraries and other web assets.",
+    "icon": "/icon/jsdelivr.png",
+    "checks": {
+        "tags": [
+            {
+                "tag": "script",
+                "attribute": "src",
+                "value": "cdn.jsdelivr.net"
+            },
+            {
+                "tag": "script",
+                "attribute": "src",
+                "value": "esm.run"
+            }
+        ],
+        "headers": []
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "name": "Google AMP",
+    "description": "Google AMP, or Accelerated Mobile Pages, is an open-source initiative that aims to improve the performance of web pages on mobile devices.",
+    "icon": "/icon/google-amp.png",
+    "checks": {
+        "tags": [
+            {
+                "tag": "link",
+                "attribute": "rel",
+                "value": "amphtml"
+            },
+            {
+                "tag": "link",
+                "attribute": "href",
+                "value": "cdn.ampproject.org"
+            },
+            {
+                "tag": "img",
+                "attribute": "src",
+                "value": "cdn.ampproject.org"
+            }
+        ],
+        "headers": []
+    }
+}

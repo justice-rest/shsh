@@ -1,0 +1,28 @@
+{
+    "name": "Read the Docs",
+    "description": "Read the Docs is an open-source platform that automates the process of building, hosting, and serving documentation for software projects.",
+    "icon": "/icon/readthedocs.png",
+    "checks": {
+        "tags": [
+            {
+                "tag": "script",
+                "attribute": "id",
+                "value": "READTHEDOCS_DATA"
+            }
+        ],
+        "headers": [
+            {
+                "header": "X-Rtd-Project",
+                "value": null
+            },
+            {
+                "header": "X-Rtd-Path",
+                "value": null
+            },
+            {
+                "header": "X-Rtd-Version",
+                "value": null
+            }
+        ]
+    }
+}

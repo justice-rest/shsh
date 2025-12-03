@@ -1,0 +1,30 @@
+{
+    "name": "Cloudflare R2",
+    "description": "Cloudflare R2 is a fully managed object storage service that is designed to be scalable, secure, and performant. R2 is built on top of Cloudflare's global network.",
+    "icon": "/icon/cloudflare-r2.png",
+    "checks": {
+        "tags": [
+            {
+                "tag": "script",
+                "attribute": "src",
+                "value": "r2.cloudflarestorage.com"
+            },
+            {
+                "tag": "link",
+                "attribute": "href",
+                "value": "r2.cloudflarestorage.com"
+            },
+            {
+                "tag": "img",
+                "attribute": "src",
+                "value": "r2.cloudflarestorage.com"
+            },
+            {
+                "tag": "src",
+                "attribute": null,
+                "value": "r2.cloudflarestorage.com"
+            }
+        ],
+        "headers": []
+    }
+}

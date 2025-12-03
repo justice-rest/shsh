@@ -1,0 +1,30 @@
+{
+    "name": "Vimeo",
+    "description": "Vimeo is a free, customizable service that allows you to host videos and embed them on your website.",
+    "icon": "/icon/vimeo.png",
+    "checks": {
+        "tags": [
+            {
+                "tag": "script",
+                "attribute": "src",
+                "value": "vimeocdn.com"
+            },
+            {
+                "tag": "iframe",
+                "attribute": "src",
+                "value": "vimeo.com"
+            },
+            {
+                "tag": "script",
+                "attribute": null,
+                "value": "player.vimeo.com"
+            },
+            {
+                "tag": "script",
+                "attribute": null,
+                "value": "Vimeo.Player"
+            }
+        ],
+        "headers": []
+    }
+}

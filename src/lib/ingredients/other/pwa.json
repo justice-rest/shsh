@@ -1,0 +1,15 @@
+{
+    "name": "Progressive Web App",
+    "description": "Websites which support Progressive Web App (PWA) use modern web technologies to deliver an app-like experience to users.",
+    "icon": "/icon/pwa.png",
+    "checks": {
+        "tags": [
+            {
+                "tag": "link",
+                "attribute": "rel",
+                "value": "manifest"
+            }
+        ],
+        "headers": []
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "name": "Google Pay",
+    "description": "Google Pay is a digital wallet and online payment system developed by Google. It allows users to make payments in stores, online, and in apps using their Android devices.",
+    "icon": "/icon/google.png",
+    "checks": {
+        "tags": [
+            {
+                "tag": "script",
+                "attribute": "src",
+                "value": "pay.google.com/*js/pay*.js"
+            },
+            {
+                "tag": "script",
+                "attribute": "src",
+                "value": "pay.google.com/*ui/payframe"
+            }
+        ],
+        "headers": []
+    }
+}

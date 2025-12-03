@@ -1,0 +1,15 @@
+{
+    "name": "Modernizr",
+    "description": "Modernizr is a JavaScript library that allows developers to detect support for new web technologies in users' browsers.",
+    "icon": "/icon/modernizr.png",
+    "checks": {
+        "tags": [
+            {
+                "tag": "script",
+                "attribute": "src",
+                "value": "/modernizr.*js"
+            }
+        ],
+        "headers": []
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "name": "Algolia",
+    "description": "Algolia is a search as a service platform that helps businesses create and manage search experiences for their websites and apps.",
+    "icon": "/icon/algolia.png",
+    "checks": {
+        "tags": [
+            {
+                "tag": "link",
+                "attribute": "href",
+                "value": "dsn.algolia.net"
+            },
+            {
+                "tag": "script",
+                "attribute": "src",
+                "value": "instantsearch.*js"
+            },
+            {
+                "tag": "link",
+                "attribute": "href",
+                "value": "instantsearch.*css"
+            }
+        ],
+        "headers": []
+    }
+}

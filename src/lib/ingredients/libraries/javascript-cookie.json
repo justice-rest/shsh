@@ -1,0 +1,20 @@
+{
+    "name": "JavaScript Cookie",
+    "description": "JavaScript Cookie (often referred to as JS Cookie or Cookie) is a JavaScript library that allows you to create, read, and delete cookies.",
+    "icon": "/icon/javascript-cookie.png",
+    "checks": {
+        "tags": [
+            {
+                "tag": "script",
+                "attribute": "src",
+                "value": "/js.cookie.*js"
+            },
+            {
+                "tag": "script",
+                "attribute": "src",
+                "value": "/js-cookie.*js"
+            }
+        ],
+        "headers": []
+    }
+}

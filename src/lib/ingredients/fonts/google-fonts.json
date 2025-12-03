@@ -1,0 +1,25 @@
+{
+    "name": "Google Fonts",
+    "description": "Google Fonts is a free and open-source library of web fonts provided by Google.",
+    "icon": "/icon/google-fonts.png",
+    "checks": {
+        "tags": [
+            {
+                "tag": "link",
+                "attribute": "href",
+                "value": "fonts.googleapis.com"
+            },
+            {
+                "tag": "link",
+                "attribute": "href",
+                "value": "fonts.gstatic.com"
+            },
+            {
+                "tag": "script",
+                "attribute": "src",
+                "value": "ajax.googleapis.com/ajax/libs/webfont"
+            }
+        ],
+        "headers": []
+    }
+}

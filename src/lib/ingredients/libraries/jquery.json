@@ -1,0 +1,15 @@
+{
+    "name": "jQuery",
+    "description": "jQuery is a JavaScript library that simplifies HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax.",
+    "icon": "/icon/jquery.png",
+    "checks": {
+        "tags": [
+            {
+                "tag": "script",
+                "attribute": "src",
+                "value": "/jquery*.js"
+            }
+        ],
+        "headers": []
+    }
+}

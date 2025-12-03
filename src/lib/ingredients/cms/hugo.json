@@ -1,0 +1,15 @@
+{
+    "name": "Hugo",
+    "description": "Hugo is an open-source static site generator (SSG) that allows developers to build websites quickly and efficiently.",
+    "icon": "/icon/hugo.png",
+    "checks": {
+        "tags": [
+            {
+                "tag": "meta",
+                "attribute": "generator",
+                "value": "Hugo"
+            }
+        ],
+        "headers": []
+    }
+}

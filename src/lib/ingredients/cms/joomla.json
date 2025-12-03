@@ -1,0 +1,20 @@
+{
+    "name": "Joomla",
+    "description": "Joomla is an open-source content management system (CMS) used for building and managing websites and web applications.",
+    "icon": "/icon/joomla.png",
+    "checks": {
+        "tags": [
+            {
+                "tag": "meta",
+                "attribute": "generator",
+                "value": "Joomla"
+            }
+        ],
+        "headers": [
+            {
+                "header": "x-content-encoded-by",
+                "value": "Joomla"
+            }
+        ]
+    }
+}

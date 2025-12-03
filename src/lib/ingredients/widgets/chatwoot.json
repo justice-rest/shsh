@@ -1,0 +1,20 @@
+{
+    "name": "Chatwoot",
+    "description": "Chatwoot is an opensource customer engagement platform.",
+    "icon": "/icon/chatwoot.png",
+    "checks": {
+        "tags": [
+            {
+                "tag": "script",
+                "attribute": null,
+                "value": "window.chatwootSDK"
+            },
+            {
+                "tag": "div",
+                "attribute": "id",
+                "value": "woot-widget"
+            }
+        ],
+        "headers": []
+    }
+}

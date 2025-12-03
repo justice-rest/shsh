@@ -1,0 +1,20 @@
+{
+    "name": "MkDocs",
+    "description": "MkDocs is a static site generator that helps developers create simple and elegant documentation websites from Markdown text files.",
+    "icon": "/icon/mkdocs.png",
+    "checks": {
+        "tags": [
+            {
+                "tag": "link",
+                "attribute": "href",
+                "value": "/_mkdocstrings.css"
+            },
+            {
+                "tag": "meta",
+                "attribute": "generator",
+                "value": "mkdocs-"
+            }
+        ],
+        "headers": []
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "name": "Google Charts",
+    "description": "Google Charts is a JavaScript library that allows you to create interactive charts and graphs on your website or web application.",
+    "icon": "/icon/google-charts.png",
+    "checks": {
+        "tags": [
+            {
+                "tag": "link",
+                "attribute": "href",
+                "value": "gstatic.com/charts/*.css"
+            },
+            {
+                "tag": "script",
+                "attribute": "src",
+                "value": "gstatic.com/charts/*.js"
+            }
+        ],
+        "headers": []
+    }
+}

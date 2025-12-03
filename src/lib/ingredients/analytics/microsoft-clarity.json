@@ -1,0 +1,25 @@
+{
+    "name": "Microsoft Clarity",
+    "description": "Microsoft Clarity is a web analytics tool that provides website owners with insights into user behavior on their websites.",
+    "icon": "/icon/microsoft-clarity.png",
+    "checks": {
+        "tags": [
+            {
+                "tag": "script",
+                "attribute": "src",
+                "value": "clarity.ms/tag"
+            },
+            {
+                "tag": "script",
+                "attribute": "src",
+                "value": "microsoft-clarity/payload.*js"
+            },
+            {
+                "tag": "script",
+                "attribute": null,
+                "value": "clarity.ms/tag"
+            }
+        ],
+        "headers": []
+    }
+}

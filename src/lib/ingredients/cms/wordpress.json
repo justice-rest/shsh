@@ -1,0 +1,30 @@
+{
+    "name": "WordPress",
+    "description": "WordPress is a widely-used open-source content management system (CMS) that enables users to create and manage websites and blogs.",
+    "icon": "/icon/wordpress.png",
+    "checks": {
+        "tags": [
+            {
+                "tag": "link",
+                "attribute": "href",
+                "value": "/wp-content/themes"
+            },
+            {
+                "tag": "link",
+                "attribute": "href",
+                "value": "/wp-content/plugins"
+            },
+            {
+                "tag": "script",
+                "attribute": "src",
+                "value": "/wp-content/cache"
+            },
+            {
+                "tag": "script",
+                "attribute": "src",
+                "value": "/wp-content/plugins"
+            }
+        ],
+        "headers": []
+    }
+}

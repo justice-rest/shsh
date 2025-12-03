@@ -1,0 +1,30 @@
+{
+    "name": "Intercom",
+    "description": "Intercom is a customer relationship management (CRM) platform that helps businesses engage with their customers across all channels, including website, mobile app, email, and chat.",
+    "icon": "/icon/intercom.png",
+    "checks": {
+        "tags": [
+            {
+                "tag": "script",
+                "attribute": "src",
+                "value": "widget.intercom.io"
+            },
+            {
+                "tag": "link",
+                "attribute": "href",
+                "value": "widget.intercom.io"
+            },
+            {
+                "tag": "iframe",
+                "attribute": "id",
+                "value": "intercom-frame"
+            },
+            {
+                "tag": "script",
+                "attribute": null,
+                "value": "window.intercomSettings"
+            }
+        ],
+        "headers": []
+    }
+}

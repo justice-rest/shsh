@@ -1,0 +1,20 @@
+{
+    "name": "Typekit",
+    "description": "Typekit is Adobe's hosted web font service.",
+    "icon": "/icon/typekit.png",
+    "checks": {
+        "tags": [
+            {
+                "tag": "link",
+                "attribute": "href",
+                "value": "use.typekit.net"
+            },
+            {
+                "tag": "link",
+                "attribute": "href",
+                "value": "p.typekit.net"
+            }
+        ],
+        "headers": []
+    }
+}

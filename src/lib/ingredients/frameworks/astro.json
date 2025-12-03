@@ -1,0 +1,25 @@
+{
+    "name": "Astro",
+    "description": "Astro is an all-in-one web framework for building fast, content-focused websites.",
+    "icon": "/icon/astro.png",
+    "checks": {
+        "tags": [
+            {
+                "tag": "meta",
+                "attribute": "generator",
+                "value": "Astro"
+            },
+            {
+                "tag": "link",
+                "attribute": "href",
+                "value": "/_astro/"
+            },
+            {
+                "tag": "body",
+                "attribute": "class",
+                "value": "astro-"
+            }
+        ],
+        "headers": []
+    }
+}

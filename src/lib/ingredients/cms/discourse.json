@@ -1,0 +1,20 @@
+{
+    "name": "Discourse",
+    "description": "Discourse is an open-source, self-hosted discussion platform that is designed to be easy to use and scalable.",
+    "icon": "/icon/discourse.png",
+    "checks": {
+        "tags": [
+            {
+                "tag": "link",
+                "attribute": "href",
+                "value": "discourse-cdn.com"
+            },
+            {
+                "tag": "script",
+                "attribute": "src",
+                "value": "discourse-cdn.com"
+            }
+        ],
+        "headers": []
+    }
+}

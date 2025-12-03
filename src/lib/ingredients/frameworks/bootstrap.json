@@ -1,0 +1,25 @@
+{
+    "name": "Bootstrap",
+    "description": "Bootstrap is a free and open-source CSS framework for building responsive, mobile-first web pages.",
+    "icon": "/icon/bootstrap.png",
+    "checks": {
+        "tags": [
+            {
+                "tag": "script",
+                "attribute": "src",
+                "value": "/bootstrap*.js"
+            },
+            {
+                "tag": "script",
+                "attribute": "src",
+                "value": "/bootstrap*.css"
+            },
+            {
+                "tag": "link",
+                "attribute": "href",
+                "value": "/bootstrap*.css"
+            }
+        ],
+        "headers": []
+    }
+}

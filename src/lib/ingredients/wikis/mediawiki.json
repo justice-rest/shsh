@@ -1,0 +1,15 @@
+{
+    "name": "MediaWiki",
+    "description": "MediaWiki is a wiki software. It is used by Wikipedia.",
+    "icon": "/icon/mediawiki.png",
+    "checks": {
+        "tags": [
+            {
+                "tag": "meta",
+                "attribute": "generator",
+                "value": "MediaWiki"
+            }
+        ],
+        "headers": []
+    }
+}

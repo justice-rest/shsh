@@ -1,0 +1,30 @@
+{
+    "name": "Ko-fi",
+    "description": "Ko-fi is a platform that allows users to support their favorite creators with small, regular donations.",
+    "icon": "/icon/kofi.png",
+    "checks": {
+        "tags": [
+            {
+                "tag": "script",
+                "attribute": "src",
+                "value": "storage.ko-fi.com/cdn/scripts/*.js"
+            },
+            {
+                "tag": "script",
+                "attribute": "src",
+                "value": "storage.ko-fi.com/cdn/widget/*.js"
+            },
+            {
+                "tag": "iframe",
+                "attribute": "src",
+                "value": "ko-fi.com"
+            },
+            {
+                "tag": "script",
+                "attribute": null,
+                "value": "kofiWidgetOverlay"
+            }
+        ],
+        "headers": []
+    }
+}

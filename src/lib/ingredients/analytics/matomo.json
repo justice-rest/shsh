@@ -1,0 +1,45 @@
+{
+    "name": "Matomo",
+    "description": "Matomo Analytics, formerly known as Piwik, is an open-source web analytics platform that allows website owners to collect and analyze data about their website's visitors.",
+    "icon": "/icon/matomo.png",
+    "checks": {
+        "tags": [
+            {
+                "tag": "script",
+                "attribute": "src",
+                "value": "/piwik.*js"
+            },
+            {
+                "tag": "img",
+                "attribute": "src",
+                "value": "/piwik.php"
+            },
+            {
+                "tag": "script",
+                "attribute": "src",
+                "value": "/matomo.*js"
+            },
+            {
+                "tag": "script",
+                "attribute": null,
+                "value": "var _paq = _paq || [];"
+            },
+            {
+                "tag": "script",
+                "attribute": null,
+                "value": "var _paq = window._paq || [];"
+            },
+            {
+                "tag": "script",
+                "attribute": null,
+                "value": "_paq.push(['setTrackerUrl', u+'piwik.php']);"
+            },
+            {
+                "tag": "script",
+                "attribute": null,
+                "value": "_paq.push(['setTrackerUrl', u+'matomo.php']);"
+            }
+        ],
+        "headers": []
+    }
+}

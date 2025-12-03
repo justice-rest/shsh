@@ -1,0 +1,24 @@
+{
+    "name": "Netlify",
+    "description": "Netlify is a cloud-based platform that helps you deploy and host your web applications and static websites.",
+    "icon": "/icon/netlify.png",
+    "checks": {
+        "tags": [
+            {
+                "tag": "src",
+                "attribute": "id",
+                "value": "netlify-rum-container"
+            }
+        ],
+        "headers": [
+            {
+                "header": "Server",
+                "value": "Netlify"
+            },
+            {
+                "header": "X-Nf-Request-Id",
+                "value": null
+            }
+        ]
+    }
+}

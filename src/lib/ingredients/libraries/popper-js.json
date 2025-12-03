@@ -1,0 +1,15 @@
+{
+    "name": "Popper.js",
+    "description": "Popper.js is a lightweight JavaScript library that is commonly used to create tooltips, popovers, and other floating elements.",
+    "icon": "/icon/popper-js.png",
+    "checks": {
+        "tags": [
+            {
+                "tag": "script",
+                "attribute": "src",
+                "value": "popper.*js"
+            }
+        ],
+        "headers": []
+    }
+}

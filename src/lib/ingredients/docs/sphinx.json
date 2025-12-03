@@ -1,0 +1,25 @@
+{
+    "name": "Sphinx",
+    "description": "Sphinx is a static site generator that helps developers create simple and elegant documentation websites from Markdown text files.",
+    "icon": "/icon/sphinx.png",
+    "checks": {
+        "tags": [
+            {
+                "tag": "script",
+                "attribute": "src",
+                "value": "/documentation_options.js"
+            },
+            {
+                "tag": "body",
+                "attribute": "class",
+                "value": "wy-body"
+            },
+            {
+                "tag": "div",
+                "attribute": "class",
+                "value": "wy-menu"
+            }
+        ],
+        "headers": []
+    }
+}

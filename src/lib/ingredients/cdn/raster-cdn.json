@@ -1,0 +1,20 @@
+{
+    "name": "Raster",
+    "description": "Raster is a digital asset manager for modern teams, saving time organizing, editing, and hosting photography.",
+    "icon": "/icon/raster-cdn.png",
+    "checks": {
+        "tags": [
+            {
+                "tag": "img",
+                "attribute": "src",
+                "value": "cdn.raster.app"
+            },
+            {
+                "tag": "meta",
+                "attribute": "content",
+                "value": "cdn.raster.app"
+            }
+        ],
+        "headers": []
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "name": "Splide",
+    "description": "Splide.js is a lightweight, flexible, and accessible slider/carousel library written in TypeScript.",
+    "icon": "/icon/splide-js.png",
+    "checks": {
+        "tags": [
+            {
+                "tag": "script",
+                "attribute": "src",
+                "value": "/splide.*js"
+            },
+            {
+                "tag": "link",
+                "attribute": "href",
+                "value": "/splide-core.*css"
+            }
+        ],
+        "headers": []
+    }
+}
